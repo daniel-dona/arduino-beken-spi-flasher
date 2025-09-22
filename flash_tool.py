@@ -139,8 +139,8 @@ def write_page(conn: serial.Serial, address: int, data: bytes):
                 
     new_data = read_page(conn, address)
     
-    print(data)
-    print(new_data)
+    #print(data)
+    #print(new_data)
         
     if data == new_data:
         logger.debug("Write verification correct")

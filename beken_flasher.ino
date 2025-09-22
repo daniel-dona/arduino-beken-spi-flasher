@@ -778,7 +778,6 @@ void write_flash_page(uint32_t addr, uint8_t mode) {
 
     Serial.println("OK");
 
-    
 
   }else{
     Serial.println(F("Unable to reserve buffer"));
